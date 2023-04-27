@@ -11,11 +11,11 @@ function fibonacci(num) {
 	let a=0;
 	let b=1;
 
-	var sum;
+	var c;
 	for(let i=0; i<num-2 ; i++){
-		sum=a+b;
+		c=a+b;
 		a=b;
-		b=sum;
+		b=c;
 	}
 	return b;
 }
